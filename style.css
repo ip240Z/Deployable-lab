@@ -1,3 +1,4 @@
+@media screen and (min-width:400px) {
 .grid {
     display: grid;
     grid-template-columns: 10% 40% 40% 10%;
@@ -18,4 +19,5 @@
 .goals {
     grid-column: 3;
     grid-row: 2;
+}
 }
