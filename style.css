@@ -1,9 +1,10 @@
-@media screen and (min-width:400px) {
+@media screen and (min-width:450px) {
 .grid {
     display: grid;
     grid-template-columns: 10% 40% 40% 10%;
     border-color: black;
     border-radius: 10px;
+    gap:10px;
 
 }
 .header {
@@ -14,10 +15,37 @@
 .learn {
     grid-column: 2;
     grid-row: 2;
+    background-color:lightgray;
+    border-radius:10px;
+    border:1px solid black;
 }
 
 .goals {
+    border:1px solid black;
+    border-radius: 10px;
     grid-column: 3;
     grid-row: 2;
+    background-color: lightgray;
+}
+
+.container {
+    border: 1px solid #5e510e43;
+    border-radius: 7px;
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    grid-column:2/4;
+    grid-row: 3;
+    font-weight: bold;
+}
+
+.for-fun {
+    border: 1px solid #5e510e43;
+    border-radius: 7px;
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    grid-column:2/4;
+    grid-row: 4;
 }
 }
