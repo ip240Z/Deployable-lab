@@ -29,7 +29,7 @@
 }
 
 .container {
-    border: 1px solid #5e510e43;
+    border: 1px solid black;
     border-radius: 7px;
     background-color: lightgray;
     padding: 10px;
@@ -40,7 +40,7 @@
 }
 
 .for-fun {
-    border: 1px solid #5e510e43;
+    border: 1px solid black;
     border-radius: 7px;
     background-color: lightgray;
     padding: 10px;
